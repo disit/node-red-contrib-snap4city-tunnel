@@ -1,0 +1,27 @@
+{
+    "name": "node-red-contrib-snap4city-tunnel",
+    "version": "0.0.3",
+    "description": "Nodes for Snap4city project, targeted to tunneling edge device",
+    "dependencies": {
+        "@mysql/xdevapi": "^8.0.21",
+        "log4js": "^6.3.0",
+        "node-uuid": "^1.4.8",
+        "rfdc": "^1.1.4",
+        "websocket": "^1.0.28",
+        "winston": "^3.3.3",
+        "xmlhttprequest": "^1.8.0"
+    },
+    "keywords": [
+        "node-red",
+        "smartcity",
+        "iot"
+    ],
+    "license": "AGPL-3.0-or-later",
+    "homepage": "https://github.com/disit/node-red-contrib-snap4city-user",
+    "node-red": {
+        "nodes": {
+            "edge-tunnel-to-cloud": "edge-tunnel-to-cloud.js",
+            "snap4city-authentication-tunnel": "snap4city-authentication-tunnel.js"
+        }
+    }
+}
